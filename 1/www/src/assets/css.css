@@ -1,0 +1,37 @@
+.error,
+.success {
+  border-radius: 50%;
+  width: 10px;
+  aspect-ratio: 1 / 1;
+  background: red;
+}
+
+.success {
+  background: green;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 375px;
+  border: 1px solid;
+  border-radius: 4px;
+  padding: 6px;
+}
+
+.container {
+  width: clamp(375px, 65%, 1200px);
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: auto;
+}
