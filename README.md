@@ -22,3 +22,7 @@ docker нужен только в папке 1 и 3.
 http://localhost:8000/?migrate
 http://localhost:8000/?seed
 ```
+
+User:
+email: admin@admin.ru
+пароль: admin

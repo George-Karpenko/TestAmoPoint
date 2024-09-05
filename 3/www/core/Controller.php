@@ -2,8 +2,6 @@
 
 namespace Core;
 
-use LogicException;
-
 abstract class Controller
 {
     protected $layout = 'default';
