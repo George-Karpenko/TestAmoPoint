@@ -10,6 +10,7 @@ class ApiMetricController extends Controller
 {
     function save()
     {
-        (new Model)->query("INSERT INTO metrics (city, ip) VALUES ('$_POST[city]', '$_POST[ip]');");
+        $_POST = json_decode(file_get_contents('php://input'), true);
+        (new Model)->query("INSERT INTO metrics (city, ip, os) VALUES ('$_POST[city]', '$_POST[ip]', '$_POST[os]');");
     }
 }

@@ -18,7 +18,6 @@ define("DB_PASS", "password");
 
 define("DB_NAME", "test_database");
 
-$_POST = json_decode(file_get_contents('php://input'), true);
 
 function redirect($url, $statusCode = 303)
 {
